@@ -120,6 +120,10 @@ public class Parser {
     }
 
     void writeToFile(String stringToWrite, String topicName) {
+        int lastIndex = topicName.length() - 1;
+        if (topicName.charAt(lastIndex) == ':') {
+            topicName = topicName.substring(0, lastIndex);
+        }
         File outputFile = new File(topicName + ".txt");
         FileWriter myWriter = null;
         try {
