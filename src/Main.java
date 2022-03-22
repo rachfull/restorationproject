@@ -82,7 +82,7 @@ public final class Main {
 
                 if (response != null) {
                     System.out.println(response);
-                    System.out.println("Check for an output file with scriptures related to a topic or read them in the console!"+ '\n');
+                    System.out.println("Check for an output file with scriptures related to your topic or read them in the console!"+ '\n');
                     validInput = false;
                 } else {
                     System.out.println("Something went wrong while displaying the scriptures.");

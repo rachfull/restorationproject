@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41cf7e88-fbf2-405d-bb20-055904972a3b" name="Changes" comment="now just need to finish txt file" />
+    <list default="true" id="41cf7e88-fbf2-405d-bb20-055904972a3b" name="Changes" comment="now just need to finish txt file">
+      <change beforePath="$PROJECT_DIR$/out/production/restorationproject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restorationproject/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/restorationproject/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/restorationproject/Parser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,5 +77,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="now just need to finish txt file" />
     <option name="LAST_COMMIT_MESSAGE" value="now just need to finish txt file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Parser.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

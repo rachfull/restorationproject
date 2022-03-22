@@ -124,7 +124,7 @@ public class Parser {
         if (topicName.charAt(lastIndex) == ':') {
             topicName = topicName.substring(0, lastIndex);
         }
-        File outputFile = new File(topicName + ".txt");
+        File outputFile = new File(topicName.substring(1) + ".txt");
         FileWriter myWriter = null;
         try {
             myWriter = new FileWriter(outputFile);
